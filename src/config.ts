@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Daniel Baker",
   desc: "A personal site and blog for me.",
   title: "djacu",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "djacu-dev-og.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
