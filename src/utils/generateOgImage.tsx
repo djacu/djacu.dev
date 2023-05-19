@@ -22,7 +22,7 @@ const ogImage = (text: string) => {
   return (
     <div
       style={{
-        background: "#fefbfb",
+        background: "#3A5069",
         width: "100%",
         height: "100%",
         display: "flex",
@@ -36,9 +36,9 @@ const ogImage = (text: string) => {
           top: "-1px",
           right: "-1px",
           border: "4px solid #000",
-          background: "#ecebeb",
+          background: "#C7D3E0",
           opacity: "0.9",
-          borderRadius: "4px",
+          borderRadius: "120px",
           display: "flex",
           justifyContent: "center",
           margin: "2.5rem",
@@ -50,8 +50,8 @@ const ogImage = (text: string) => {
       <div
         style={{
           border: "4px solid #000",
-          background: "#fefbfb",
-          borderRadius: "4px",
+          background: "#2C3D50",
+          borderRadius: "120px",
           display: "flex",
           justifyContent: "center",
           margin: "2rem",
@@ -73,6 +73,7 @@ const ogImage = (text: string) => {
             style={{
               fontSize: 72,
               fontWeight: "bold",
+              color: "#DEE5ED",
               maxHeight: "84%",
               overflow: "hidden",
             }}
@@ -86,6 +87,7 @@ const ogImage = (text: string) => {
               width: "100%",
               marginBottom: "8px",
               fontSize: 28,
+              color: "#DEE5ED",
             }}
           >
             <span>
@@ -97,12 +99,19 @@ const ogImage = (text: string) => {
               >
                 "
               </span>
-              <span style={{ overflow: "hidden", fontWeight: "bold" }}>
+              <span style={{
+                overflow: "hidden",
+                fontWeight: "bold",
+                color: "#DEE5ED"
+              }}>
                 {SITE.author}
               </span>
             </span>
 
-            <span style={{ overflow: "hidden", fontWeight: "bold" }}>
+            <span style={{
+              overflow: "hidden",
+              fontWeight: "bold"
+            }}>
               {SITE.title}
             </span>
           </div>
