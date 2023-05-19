@@ -3,34 +3,55 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Passionate about reproducibility, traceability, and signal processing.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+## Experience
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+### Tweag
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+*Software Engineer | 2022 - 2023*
 
-## Tech Stack
+- Maintainer for an open source project, jupyenv, which provides a Nix-based framework for the definition of declarative and reproducible Jupyter environments.
+- Member of the Nix technical group within Tweag. Wrote several posts for the Tweag blog relating to Nix. Submitted additional packages to nixpkgs, the Nix package collection.
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+### The Aerospace Corporation
 
-## Features
+*Senior Member of Technical Staff | 2020 - 2022*
 
-Here are certain features of this site.
+- Worked on a software team developing a distributed federated satellite communications simulation tool in Java.
+- Responsible for developing RF signal processing analysis and processing tools.
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+### Raytheon
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+*Senior Systems Engineer | 2014 - 2020*
+
+- Responsible for Control Systems analysis and general systems modeling.
+
+### DRS Sensors & Targeting Systems
+
+*Senior Systems Engineer | 2008 - 2014*
+
+- Responsible for designing, integrating, testing, fielding and supporting LRIP of multiple gimbal stabilized platforms.
+- Modeling, analysis and design of control algorithms for a gimbal and isolator stabilized EO/IR system using MATLAB/SIMULINK.
+
+## Volunteer
+
+### Los Angeles County - Department of Public Health
+
+ - Lead developer for the vaccination dashboard Vaccine Preventable Disease Control Program under LAC DPH.
+ - Used Python to distill millions of vaccination entries from the California Immunization Registry into manageable data products.
+ - Used JavaScript along with D3.js, DC.js, CrossFilter.js and DataTables.js to create all of the previously mentioned features.
+
+### Long Beach Felines
+
+ - Lead developer for the new cat rescue site
+
+## Education
+
+### Rose-Hulman Institude of Technology | 2004 - 2008
+
+Bachelors of Science in Electrical Engineering and Applied Mathematics
+
+### University of Southern California | 2016 - 2018
+
+Masters of Science in Electrical Engineering
