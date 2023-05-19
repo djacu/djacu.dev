@@ -10,6 +10,13 @@ export const SITE: Site = {
   postPerPage: 3,
 };
 
+/**
+ * OG image sourced from multiple places.
+ * Tux Penguin is from https://www.deviantart.com/0rax0/
+ * Water is from boxicons.com
+ * NixOS Flake is from https://github.com/NixOS/nixos-artwork/
+ */
+
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
