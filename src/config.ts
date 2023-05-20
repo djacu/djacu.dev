@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://djacu.dev/",
   author: "djacu",
   desc: "A personal site and blog for me.",
-  title: "djacu",
+  title: "djacu.dev",
   ogImage: "djacu-dev-og.png",
   lightAndDarkMode: true,
   postPerPage: 3,
