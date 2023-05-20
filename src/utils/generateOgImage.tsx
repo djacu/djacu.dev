@@ -27,8 +27,9 @@ const fetchBackground = async () => {
 };
 
 
-const myOgImage2 = async (text: string) => {
+const myOgImage2 = async (text: string, props: object) => {
   const bgImage = await fetchBackground();
+  const desc = props.data.description;
   return (
     <div
       style={{
@@ -40,34 +41,19 @@ const myOgImage2 = async (text: string) => {
         justifyContent: "center",
       }}
     >
-
-      <div
-        style={{
-          position: "absolute",
-          top: "-1px",
-          right: "-1px",
-          display: "flex",
-          justifyContent: "center",
-          margin: "2.5rem",
-          width: "88%",
-          height: "80%",
-        }}
-      />
-
       <div
         style={{
           display: "flex",
           justifyContent: "center",
-          margin: "2rem",
+          marginBottom: "2rem",
           width: "88%",
-          height: "80%",
+          height: "90%",
         }}
       >
         <div
           style={{
             display: "flex",
             flexDirection: "column",
-            justifyContent: "space-between",
             margin: "20px",
             width: "90%",
             height: "90%",
@@ -85,8 +71,24 @@ const myOgImage2 = async (text: string) => {
           >
             {text}
           </p>
+          <p
+            style={{
+              position: "absolute",
+              top: "50%",
+              fontSize: 28,
+              fontWeight: "bold",
+              color: "#DEE5ED",
+              maxHeight: "84%",
+              overflow: "hidden",
+              textShadow: "2px 2px #3A5069",
+            }}
+          >
+            {desc}
+          </p>
           <div
             style={{
+              position: "absolute",
+              bottom: "0",
               display: "flex",
               justifyContent: "space-between",
               width: "100%",
@@ -298,8 +300,8 @@ const options: SatoriOptions = {
   ],
 };
 
-const generateOgImage = async (mytext = SITE.title) => {
-  const svg = await satori(await myOgImage2(mytext), options);
+const generateOgImage = async (mytext = SITE.title, props) => {
+  const svg = await satori(await myOgImage2(mytext, props), options);
 
   // render png in production mode
   if (import.meta.env.MODE === "production") {
