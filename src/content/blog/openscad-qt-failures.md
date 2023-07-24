@@ -1,6 +1,6 @@
 ---
 title: Qt errors with OpenSCAD from nixpkgs.
-description: BLAH
+description: I tried getting OpenSCAD running on a non-NixOS machine.
 pubDatetime: 2023-07-24T03:53:52Z
 tags:
   - nix
