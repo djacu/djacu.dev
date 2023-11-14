@@ -55,7 +55,11 @@ export default (post: CollectionEntry<"blog">) => {
                             textShadow: "2px 2px #3A5069",
                         }}
                     >
-                        {post.data.title}
+                        {
+                            ((post.data.title.length < 34)
+                            ? post.data.title
+                            : post.data.title.substring(0, 30).trim().concat("..."))
+                        }
                     </p>
                     <p
                         style={{
