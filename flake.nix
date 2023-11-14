@@ -25,9 +25,8 @@
 
         astro-shell = pkgs.npmlock2nix.v2.shell {
           src = ./.;
-          nodejs = pkgs.nodejs;
+          nodejs = pkgs.nodejs_latest;
           node_modules_mode = "copy";
-
         };
       in {
         devShells.astro = astro-shell;
